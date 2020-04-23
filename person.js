@@ -7,7 +7,7 @@ class person{
      } 
 
      Hello(){
-         console.log('Hello, my name is' + ' ' + [this.name] + ' ' + 'and I am' + ' ' + ' ' + [this.age] + ' ' + 'years old. My interest are' + [this.interests])
+         return('Hello, my name is ' + [this.name] + ' and I am ' +  [this.age] + ' years old. My interest are ' + [this.interests]);
         
     }
 
@@ -16,7 +16,7 @@ class person{
 
 
 
-let person1 = new person('Nokukhanya',29,'female',['creating things ','web design', 'business'] )
+let person1 = new person('Ryan',30,'male',['being a hardarse',' agile',' ssd hard drives'])
 let greeting = person1.Hello()
 console.log(greeting)
 
