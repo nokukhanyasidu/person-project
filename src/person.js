@@ -16,9 +16,9 @@ class person{
 
 
 
-let person1 = new person('Ryan',30,'male',['being a hardarse',' agile',' ssd hard drives'])
+let person1 = new person('Ryan',30,'male','being a hardarse',' agile',' ssd hard drives')
 let greeting = person1.Hello()
-console.log(greeting)
+//console.log(greeting)
 
-module.exports = {oopFunction, Person}
+module.exports = {greeting, person}
 
