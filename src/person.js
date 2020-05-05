@@ -1,4 +1,4 @@
-class person{
+class Person{
     constructor(name, age, gender, interests){
         this.name = name
         this.age = age  
@@ -16,9 +16,9 @@ class person{
 
 
 
-let person1 = new person('Ryan',30,'male','being a hardarse',' agile',' ssd hard drives')
-let greeting = person1.Hello()
+let person = new Person('Ryan',30,'male','being a hardarse',' agile',' ssd hard drives')
+let greeting = person.Hello()
 //console.log(greeting)
 
-module.exports = {greeting, person}
+module.exports = {greeting, Person}
 
